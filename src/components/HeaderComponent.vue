@@ -66,7 +66,7 @@ nav {
 }
 
 .nav-item.active {
-  border-bottom: 2px solid #1890ff;
+  border-bottom: 5px solid #1890ff;
 }
 
 .nav-item:hover {
