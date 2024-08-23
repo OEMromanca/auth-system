@@ -31,7 +31,7 @@ export const useAuthStore = defineStore('auth', {
       if (user) {
         const token = generateToken()
         setItem<string>(`authToken_${user.email}`, token)
-        startTokenExpirationTimer(user.email, 15000)
+        startTokenExpirationTimer(user.email, 30000) // token expiration
         this.currentUser = user
         this.isAuthenticated = true
         return null

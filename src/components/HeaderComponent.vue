@@ -14,6 +14,12 @@
           :class="{ active: currentRoute === '/register' }"
           >Register</router-link
         >
+        <router-link
+          to="/dashboard"
+          class="nav-item"
+          :class="{ active: currentRoute === '/dashboard' }"
+          >Dashboard</router-link
+        >
       </nav>
     </div>
   </header>

@@ -6,33 +6,41 @@ Register and Login user tutorial
 
 1. **Clone the repository:**
 
-   ```sh
-   git clone <REPOSITORY_URL>
+   ```
+   git clone https://github.com/OEMromanca/auth-system.git
    ```
 
 2. **Navigate to the project directory:**
-   ```sh
+   ```
    cd auth-system
    ```
 
 ## Project Setup
 
-```sh
+```
 npm install
 ```
 
 ### Run Project
 
-```sh
+```
 npm run dev
 ```
 
+### Project runs on
+
+[auth-system](http://localhost:5173/)
+
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
+```
 npm run lint
 ```
 
 ## In case of any Problems
 
 If there will be any problem,then restart the server-npm run dev, or clean cache-npm cache clean --force, or clear the localstorage data in browser.
+
+## Notes
+
+token expiration is set up in the store for 30sec just for demonstration
